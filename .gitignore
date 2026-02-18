@@ -3,3 +3,7 @@
 /coti_sdk.egg-info/
 
 /build/
+.venv/
+__pycache__/
+*.pyc
+Comparisson.md

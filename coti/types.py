@@ -20,3 +20,18 @@ class ItStringCiphertext(TypedDict):
 class ItString(TypedDict): 
     ciphertext: ItStringCiphertext
     signature: List[bytes]
+
+
+class CtUint256(TypedDict):
+    ciphertextHigh: int
+    ciphertextLow: int
+
+
+class ItUint256Ciphertext(TypedDict):
+    ciphertextHigh: int
+    ciphertextLow: int
+
+
+class ItUint256(TypedDict):
+    ciphertext: ItUint256Ciphertext
+    signature: bytes
